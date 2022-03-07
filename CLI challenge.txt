@@ -1,0 +1,73 @@
+1-mkdir .omartesthidden 
+
+
+2-
+Omar@DESKTOP-05MQP0G MINGW64 ~
+$ cd omartest
+
+Omar@DESKTOP-05MQP0G MINGW64 ~/omartest
+$ ls
+
+Omar@DESKTOP-05MQP0G MINGW64 ~/omartest
+$ mkdir firstlevel
+
+Omar@DESKTOP-05MQP0G MINGW64 ~/omartest
+$ cd firstlevel
+
+Omar@DESKTOP-05MQP0G MINGW64 ~/omartest/firstlevel
+$ mkdir secondlevel
+
+Omar@DESKTOP-05MQP0G MINGW64 ~/omartest/firstlevel
+$ cd secondlevel
+
+Omar@DESKTOP-05MQP0G MINGW64 ~/omartest/firstlevel/secondlevel
+$ mkdir thirdlevel
+
+Omar@DESKTOP-05MQP0G MINGW64 ~/omartest/firstlevel/secondlevel
+$ ls
+thirdlevel/
+
+Omar@DESKTOP-05MQP0G MINGW64 ~/omartest/firstlevel/secondlevel
+$ cd thirdlevel
+
+Omar@DESKTOP-05MQP0G MINGW64 ~/omartest/firstlevel/secondlevel/thirdlevel
+$ ls
+
+Omar@DESKTOP-05MQP0G MINGW64 ~/omartest/firstlevel/secondlevel/thirdlevel
+$ cd ..
+
+Omar@DESKTOP-05MQP0G MINGW64 ~/omartest/firstlevel/secondlevel
+$ cd ..
+
+Omar@DESKTOP-05MQP0G MINGW64 ~/omartest/firstlevel
+$ cd ..
+
+Omar@DESKTOP-05MQP0G MINGW64 ~/omartest
+$ cd ..
+
+Omar@DESKTOP-05MQP0G MINGW64 ~
+$ cd ..
+
+Omar@DESKTOP-05MQP0G MINGW64 /c/Users
+
+3-
+
+Omar@DESKTOP-05MQP0G MINGW64 ~/omartest
+$ echo "hello" >> greetings.txt
+
+Omar@DESKTOP-05MQP0G MINGW64 ~/omartest
+$ ls
+firstlevel/  greetings.txt
+
+Omar@DESKTOP-05MQP0G MINGW64 ~/omartest
+$ cat greetings.txt
+hello
+
+Omar@DESKTOP-05MQP0G MINGW64 ~/omartest
+$ echo -n "hello2" >> greetings.txt
+
+Omar@DESKTOP-05MQP0G MINGW64 ~/omartest
+$ cat greetings.txt
+hello
+hello2
+Omar@DESKTOP-05MQP0G MINGW64 ~/omartest

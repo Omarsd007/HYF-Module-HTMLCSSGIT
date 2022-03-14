@@ -1,0 +1,35 @@
+*{ 
+margin:0;
+padding: 0;
+ }
+#wrap {
+	margin: 0 auto;
+	text-align: center;
+}
+
+#nheader {
+background-color: purple;
+padding: 25px;
+
+}
+
+h1 {color: white;
+}
+
+#npara {
+	background-color: #fd79a8;
+	height: 350px;
+	padding top: 30px;
+}
+
+.text_para{
+	color: whitesmoke;
+	font-size: 35px;
+
+}
+.redcolor{
+	color: red;
+}
+#footer {color: white;
+background-color: purple;
+padding: 10px;}
